@@ -1,0 +1,6 @@
+a=set(["John","Mary","Tina","Fiona","Claire","Eva","Ben","Bill","Bert"])
+b=set(["John","Mary","Fiona","Claire","Ben","Bill"])
+c=set(["Mary","Fiona","Claire","Eva","Ben"])
+print(b&c)
+print(a-c)
+print(b&(a-c))

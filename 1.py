@@ -1,4 +1,4 @@
-# x= int(input("請輸入數字:"))
+x= int(input("請輸入數字:"))
 # a=0
 # for i  in range(1,x+1):
 #     if x%i==0:
@@ -14,6 +14,10 @@
 # print(c)
 
 xx=48814
-for q in range(1,6):
-    for k in xx(1,6):
-        print(k)
+for q in range(0,6):
+    for k in range(1,6):
+        a=(str(x)[q:k])
+        
+        print(a)
+
+
